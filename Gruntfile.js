@@ -68,6 +68,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bowercopy');
   grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask('build', ['sass', 'bowercopy']);
+  grunt.registerTask('build', ['bowercopy']);
   grunt.registerTask('default', ['build','watch']);
 }
