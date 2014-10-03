@@ -52,7 +52,23 @@ module.exports = function(grunt) {
           'theme/onepage/fonts': 'font-awesome/fonts'
         }
       }
+    },
 
+    protractor_webdriver: {
+      test: {
+        options: {
+          command: 'webdriver-manager start'
+        }
+      }
+    },
+
+    protractor: {
+      options: {
+        configFile: "scripts/portfolio/conf.js", // Default config file
+        keepAlive: true, // If false, the grunt process stops when the test fails.
+        noColor: false // If true, protractor will not use colors in its output.
+      },
+      all: {}
     },
 
     jshint: {
@@ -67,7 +83,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-bowercopy');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-protractor-runner');
+  grunt.loadNpmTasks('grunt-protractor-webdriver');
 
   grunt.registerTask('build', ['bowercopy']);
-  grunt.registerTask('default', ['build','watch']);
+  grunt.registerTask('default', ['build']);
+  grunt.registerTask('test', ['protractor']);
 }
