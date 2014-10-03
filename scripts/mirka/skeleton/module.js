@@ -30,12 +30,10 @@
         .run([
           "$rootScope",
           "$content",
-          "$design",
           "$skeleton",
           "$log",
-          function ($rootScope, $content, $design, $skeleton, $log) {
+          function ($rootScope, $content, $skeleton, $log) {
             $rootScope.$content  = $content;
-            $rootScope.$design   = $design;
             $rootScope.$skeleton = $skeleton;
             $rootScope.$log      = $log;
           }

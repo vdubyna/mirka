@@ -14,6 +14,7 @@
             return {
               restrict: 'E',
               link: function(scope, elem){
+                scope.$design = $design;
                 var html = '<link rel="stylesheet" data-ng-repeat="cssUrl in $design.getStylesheets()" ng-href="{{ cssUrl }}" />';
                 elem.append($compile(html)(scope));
 
