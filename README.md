@@ -50,7 +50,7 @@ It consists of the next modules:
      $routeProvider
        .when("/", {
          templateUrl: 'default.html',
-         controller: "mirkaSkeletonCtrl"б
+         controller: "mirkaSkeletonCtrl",
          css: ['my.css']
        })
    }])
