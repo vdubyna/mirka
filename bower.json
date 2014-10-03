@@ -1,0 +1,31 @@
+{
+  "name": "simple-cms",
+  "version": "0.1.0",
+  "authors": [
+    "Volodymyr Dubyna <vdubyna@speroteck.com>"
+  ],
+  "description": "Simple CMS",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "angular": "~1.2.25",
+    "jquery": "~2.1.1",
+    "foundation": "5.4.0",
+    "angular-resource": "~1.2.25",
+    "angular-route": "~1.2.25",
+    "angular-marked": "~0.0.12",
+    "js-yaml": "~3.2.2",
+    "highlightjs": "~8.0.0",
+    "font-awesome": "~4.2.0",
+    "jquery-nicescroll": "*",
+    "angular-sanitize": "~1.2.25"
+  }
+}

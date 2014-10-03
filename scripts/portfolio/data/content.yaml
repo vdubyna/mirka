@@ -1,0 +1,41 @@
+title: My Portfolio
+theme: default
+project: portfolio
+menu:
+  - name: Home
+    bookmark: "top"
+  - name: Portfolio
+    bookmark: "portfolio"
+  - name: About
+    bookmark: "about"
+  - name: Contact
+    bookmark: "contact"
+
+about: |
+  <p>Cupcake ipsum dolor sit amet sweet jelly-o gummies unerdwear.com. Sweet roll toffee tiramisu. Chocolate jujubes dessert topping muffin pudding marzipan. Croissant chocolate cake unerdwear.com tart wafer cupcake.</p>
+  <img src="scripts/portfolio/media/avatar.jpg" alt="">
+portfolio-list:
+  - logo: scripts/portfolio/media/portfolio/work-1.jpg
+    link: "#"
+    name: "Example Title"
+  - logo: scripts/portfolio/media/portfolio/work-2.jpg
+    link: "#"
+    name: "Example Title"
+  - logo: scripts/portfolio/media/portfolio/work-3.jpg
+    link: "#"
+    name: "Example Title"
+  - logo: scripts/portfolio/media/portfolio/work-4.jpg
+    link: "#"
+    name: "Example Title"
+  - logo: scripts/portfolio/media/portfolio/work-5.jpg
+    link: "#"
+    name: "Example Title"
+  - logo: scripts/portfolio/media/portfolio/work-6.jpg
+    link: "#"
+    name: "Example Title"
+  - logo: scripts/portfolio/media/portfolio/work-7.jpg
+    link: "#"
+    name: "Example Title"
+  - logo: scripts/portfolio/media/portfolio/work-8.jpg
+    link: "#"
+    name: "Example Title"

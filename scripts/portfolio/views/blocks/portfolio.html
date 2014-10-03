@@ -1,0 +1,41 @@
+<!-- PORTFOLIO -->
+<section id="portfolio" class="portfolio-wrapper">
+
+    <div class="row">
+
+        <div class="medium-12 columns">
+
+            <h3>My Latest Project</h3>
+
+            <div class="line"></div>
+            <div class="clearfix"></div>
+
+            <div class="portfolio-list">
+
+                <!-- Start: Portfolio grid -->
+                <div class="portfolio" data-ng-repeat="portfolio in $content.get('portfolio-list')">
+
+                    <div class="portfolio-cover">
+
+                        <img ng-src="{{ portfolio.logo }}" alt="">
+
+                        <div class="label">
+                            <div class="label-text">
+                                <h5><a href="{{ portfolio.link }}" class="text-title">{{ portfolio.name }}</a></h5>
+                            </div><!-- /.label-text -->
+                            <div class="label-bg"></div>
+                        </div><!-- /.label -->
+
+                    </div><!-- /.portfolio-cover -->
+
+                </div><!-- /.portfolio -->
+                <!-- End: Portfolio grid -->
+
+            </div><!-- /.portfolio-list -->
+
+        </div><!-- /.medium-12 .columns -->
+
+    </div><!-- /.row -->
+
+</section><!-- /.portfolio-wrapper -->
+<!-- PORTFOLIO -->

@@ -1,0 +1,58 @@
+/* CONTACT */
+.contact-wrapper {
+  background-color: #444;
+  color: #fff;
+  padding: 3.125rem 0 3.75rem;
+}
+.contact-wrapper h3 {
+  color: #fff;
+  text-align: center;
+}
+.contact-wrapper .line {
+  background-color: #fff;
+}
+.contact-form {
+  color: #fff;
+  margin-top: 2.188rem;
+}
+.contact-form label {
+  color: #fff;
+}
+.contact-form input[type="text"],
+.contact-form input[type="password"],
+.contact-form input[type="date"],
+.contact-form input[type="datetime"],
+.contact-form input[type="datetime-local"],
+.contact-form input[type="month"],
+.contact-form input[type="week"],
+.contact-form input[type="email"],
+.contact-form input[type="number"],
+.contact-form input[type="search"],
+.contact-form input[type="tel"],
+.contact-form input[type="time"],
+.contact-form input[type="url"],
+.contact-form textarea {
+  background-color: #535353;
+  color: #fff;
+  border-color: #626262;
+  margin: 0 0 1.5rem 0;
+}
+.contact-form input[type="text"]:focus,
+.contact-form input[type="password"]:focus,
+.contact-form input[type="date"]:focus,
+.contact-form input[type="datetime"]:focus,
+.contact-form input[type="datetime-local"]:focus,
+.contact-form input[type="month"]:focus,
+.contact-form input[type="week"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="number"]:focus,
+.contact-form input[type="search"]:focus,
+.contact-form input[type="tel"]:focus,
+.contact-form input[type="time"]:focus,
+.contact-form input[type="url"]:focus,
+.contact-form textarea:focus {
+  background-color: #717171;
+}
+.required {
+  color: #f04124;
+}

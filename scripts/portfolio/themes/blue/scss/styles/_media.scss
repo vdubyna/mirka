@@ -1,0 +1,72 @@
+/* #Media queries are built using ems in Foundation.
+============================================================== */
+
+
+
+/* max-width 40rem = 640px */
+@media only screen and (max-width: 40rem) {
+  body {
+    padding-top: 0;
+  }
+  .top-bar .name h1 {
+    margin-top: 0;
+  }
+  .csslider > ul > li > img {
+    width: 80%;
+  }
+  .portfolio {
+    width: 31%;
+  }
+  .col-desc {
+    margin: 40px;
+  }
+}
+
+
+
+/* max-width 35.5rem = 568px */
+@media only screen and (max-width: 35.5rem) {
+  .portfolio {
+    width: 48%;
+  }
+}
+
+
+
+/* max-width 30rem = 480px */
+@media only screen and (max-width: 30rem) {
+  .intro h1 {
+    font-size: 2.125rem;
+  }
+  .social-icon li {
+    margin-right: 0.5rem;
+  }
+}
+
+
+
+/* max-width 24rem = 384px */
+@media only screen and (max-width: 24rem) {
+  .portfolio {
+    width: 98%;
+  }
+  .social-icon li {
+    margin-bottom: 0.9375rem;
+  }
+  .social-icon li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/* max-width 15rem = 240px */
+@media only screen and (max-width: 15rem) {
+  .top-bar .name h1 a {
+    width: 100%;
+    font-size: 1.125rem;
+  }
+  #tweets p.tweet {
+    font-size: 1.125rem;
+  }
+}

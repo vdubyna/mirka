@@ -1,0 +1,63 @@
+/* #Global Styles
+================================================== */
+
+
+
+/* BODY STYLE */
+body {
+  background-color: #f4f4f4;
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  color: #555;
+  padding-top: 4.063rem;
+}
+
+
+
+/* LINK */
+a {
+  color: #f04124;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+a:hover {
+  color: #ea2f10;
+  text-decoration: underline;
+}
+a:focus {
+  outline: none;
+  outline: 0 auto -webkit-focus-ring-color;
+  outline-offset: 0;
+}
+
+
+
+/* STYLE MARGIN */
+.margin-top {
+  margin-top: 1.875rem;
+}
+.margin-right {
+  margin-right: 1.875rem;
+}
+.margin-bottom {
+  margin-bottom: 1.875rem;
+}
+.margin-left {
+  margin-left: 1.875rem;
+}
+
+
+
+/* SELECTION */
+::selection {
+  background-color: #b3d4fc;
+  color: #fff;
+  text-shadow: none;
+}
+
+
+
+/* SCROLL */
+.nicescroll-rails {
+  z-index: 9999 !important;
+}

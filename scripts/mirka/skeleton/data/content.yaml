@@ -1,0 +1,6 @@
+title: Mirka Site Skeleton
+project: mirka/site
+theme: default
+content:
+  description: This is Mirka Site
+  hi: Hello World

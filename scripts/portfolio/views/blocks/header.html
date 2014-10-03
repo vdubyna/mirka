@@ -1,0 +1,20 @@
+<!-- TOP BAR -->
+<header class="mathead fixed">
+    <div class="row">
+        <nav class="top-bar" data-topbar>
+            <!-- Title Area -->
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#/">{{ $content.get('title')}}</a></h1>
+                </li>
+            </ul><!-- /.title-area -->
+            <section class="top-bar-section">
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li data-ng-repeat="item in $content.get('menu')"><a ng-click="gotoBookmark(item.bookmark)">{{ item.name }}</a></li>
+                </ul><!-- /.right -->
+            </section><!-- /.top-bar-section -->
+        </nav><!-- /.top-bar -->
+    </div><!-- /.row -->
+</header><!-- /.masthead -->
+<!-- TOP BAR -->

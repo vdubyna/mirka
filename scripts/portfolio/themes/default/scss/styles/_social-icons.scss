@@ -1,0 +1,118 @@
+
+/** Social Icons **/
+.social-icon {
+  text-align: center;
+  margin: 40px 0 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+.social-icon li {
+  display: inline-block;
+  line-height: 1;
+  margin-right: 1.563rem;
+  padding: 0;
+}
+.social-icon li:last-child {
+  margin-right: 0;
+}
+.social-icon a {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.social-icon a:hover {
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3);
+}
+.social-icon a.facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+.social-icon a.facebook:hover {
+  background-color: #244281;
+  color: #fff;
+}
+.social-icon a.twitter {
+  background-color: #4099ff;
+  color: #fff;
+}
+.social-icon a.twitter:hover {
+  background-color: #2982e8;
+  color: #fff;
+}
+.social-icon a.google-plus {
+  background-color: #d34836;
+  color: #fff;
+}
+.social-icon a.google-plus:hover {
+  background-color: #bc311f;
+  color: #fff;
+}
+.social-icon a.dribbble {
+  background-color: #c73b6f;
+  color: #fff;
+}
+.social-icon a.dribbble:hover {
+  background-color: #b02458;
+  color: #fff;
+}
+.social-icon a.flickr {
+  background-color: #0063dc;
+  color: #fff;
+}
+.social-icon a.flickr:hover {
+  background-color: #004cc5;
+  color: #fff;
+}
+.social-icon .fa {
+  font-size: 2.25rem;
+  line-height: 2;
+}
+.social-icon a:hover .fa {
+  -webkit-animation: toRightFromLeft 0.3s forwards;
+  -moz-animation: toRightFromLeft 0.3s forwards;
+  animation: toRightFromLeft 0.3s forwards;
+}
+/** Effect **/
+@-webkit-keyframes toRightFromLeft {
+  49% {
+    -webkit-transform: translate(100%);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes toRightFromLeft {
+  49% {
+    -moz-transform: translate(100%);
+  }
+  50% {
+    opacity: 0;
+    -moz-transform: translate(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+@keyframes toRightFromLeft {
+  49% {
+    transform: translate(100%);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(-100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
